@@ -44,9 +44,9 @@ namespace JWTAPI
                 {
                     ValidateIssuer = true,
                     ValidateAudience=true,
-                    ValidAudience= "https://www.yogihosting.com",
-                    ValidIssuer= "https://www.yogihosting.com",
-                    IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MynameisJamesBond007"))
+                    ValidAudience= "https://github.com/krishnaprasadvijayarajan ",
+                    ValidIssuer= "https://github.com/krishnaprasadvijayarajan",
+                    IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MyFirstJWTAuthentication20200802"))
                 };
             });
         }
