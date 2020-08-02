@@ -24,7 +24,7 @@ services.AddControllers();
                     ValidateAudience=true,
                     ValidAudience= "https://github.com/krishnaprasadvijayarajan",
                     ValidIssuer= "https://github.com/krishnaprasadvijayarajan",
-                    IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MyFirstJWTAuthentication0208"))
+                    IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MyFirstJWTAuthentication20200802"))
                 };
             });
             
